@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/lmanini/HOPR-visualizer#readme",
   "devDependencies": {
+    "@typechain/ethers-v5": "^9.0.0",
+    "@types/node": "^17.0.18",
     "ethers": "^5.5.4"
   }
 }

@@ -1,10 +1,8 @@
-import ethers from "ethers";
-
-function getContract(address: string, abi: string[], provider: ethers.providers.JsonRpcProvider) : ethers.Contract {
+function getContract(address, abi, provider){
     return new ethers.Contract(address, abi, provider);
 }
 
-function getLogs(contract: ethers.Contract) {
+function getLogs(contract) {
     return contract.filters.ChannelUpdated(null, null, null)
 }
 
@@ -18,9 +16,4 @@ function main() {
     ]
 
     console.log(getLogs(getContract(targetAddress, targetABI, provider)));
-}
-
-let el = document.getElementById("clickMe")
-if (el !== null) {
-    el.onclick = main;
 }
