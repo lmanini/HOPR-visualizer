@@ -1,0 +1,22 @@
+{
+  "name": "hopr-visualizer",
+  "version": "1.0.0",
+  "description": "A tool to visualize the hopr network topology",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmanini/HOPR-visualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmanini/HOPR-visualizer/issues"
+  },
+  "homepage": "https://github.com/lmanini/HOPR-visualizer#readme",
+  "devDependencies": {
+    "ethers": "^5.5.4"
+  }
+}
